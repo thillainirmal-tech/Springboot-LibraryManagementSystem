@@ -1,0 +1,56 @@
+/* Reset some basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Container styles */
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Title styles */
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Form styles */
+.form-container {
+    margin-bottom: 20px;
+}
+
+form input {
+    padding: 8px;
+    margin: 5px;
+    width: 200px;
+    font-size: 16px;
+}
+
+form button {
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+/* Book list styles */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    background-color: #f9f9f9;
+    margin: 5px;
+    border: 1px solid #ddd;
+}
